@@ -11,6 +11,7 @@ os.environ["API_ID"] = "test_api_key"
 os.environ["GRAPHQL_ENDPOINT"] = "https://example.com"
 
 
+
 class MockS3Client:
     """Very basic mock of the Boto3 S3 client, only mocks the functionality required for this particular lambda"""
 
