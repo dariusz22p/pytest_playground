@@ -7,6 +7,7 @@ import src.lambda_function
 import time
 from src.exceptions import *
 
+
 os.environ["API_ID"] = "test_api_key"
 os.environ["GRAPHQL_ENDPOINT"] = "https://example.com"
 
